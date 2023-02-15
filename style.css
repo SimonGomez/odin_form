@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Gill Sans";
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    height: 75%;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+@font-face {
+    font-family: odinFont;
+    src: url(Norse-Bold.otf)
+}
+
+.divlogo {
+    font-family: odinFont;
+    font-size: 120px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding-top: 25px;
+    
+}
+
+.left {
+    background-image: url("./images/left_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 50%;
+}
+
+.credit {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.right_top {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 250, 251);
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.right_bottom {
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form {
+    background-color: white;
+
+}
+
+.fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 10%;
+
+}
+.form_block {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+
+
