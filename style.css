@@ -68,14 +68,19 @@ img {
     font-size: x-large;
     margin: 0;
     padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-right: 2%;
 }
 
 .right {
     display: flex;
     flex-direction: column;
     background-color: rgb(249, 250, 251);
-    padding-left: 5%;
-    padding-right: 2%;
 }
 
 .right_bottom {
@@ -95,7 +100,9 @@ img {
     background-color: white;
     gap: 20px 50px;
     align-content: center;
-
+    padding-left: 5%;
+    padding-right: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .form_block {
@@ -106,4 +113,11 @@ img {
 
 label {
     color: darkgray;
+}
+
+input {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
 }
