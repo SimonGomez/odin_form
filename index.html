@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -26,33 +27,33 @@
             <p>You know you want to.</p>
         </div>
         <div class="right_bottom">
-            <form action="#" method="post">
+            <form action="#" method="post" onsubmit="return validateForm()" name="myform">
                 <h2>Let's do this!</h2>
                 <div class="whiteblock">
                     <div class="fieldset">
                         <div class="form_block">
                             <label for="first_name">First Name</label>
-                            <input type="text" id="first_name" name="last_name">
+                            <input type="text" id="first_name" name="last_name" required minlength="1">
                         </div>
                         <div class="form_block">
                             <label for="last_name">Last Name</label>
-                            <input type="text" id="last_name" name="last_name">
+                            <input type="text" id="last_name" name="last_name" required minlength="1">
                         </div>
                         <div class="form_block">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form_block">
                             <label for="phone">Phone Number</label>
-                            <input type="number" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" required pattern="[\d ]*">
                         </div>
                         <div class="form_block">
                             <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required minlength="6" maxlength="30">
                         </div>
                         <div class="form_block">
                             <label for="confirm_password">Confirm Password</label>
-                            <input type="password" id="confirm_password" name="confirm_password">
+                            <input type="password" id="confirm_password" name="confirm_password" required minlength="6" maxlength="30">
                         </div>
                     </div>
                 </div>
